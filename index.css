@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: fantasy;
+}
+
+#hero-header {
+  display: flex;
+  justify-content: center;
+  background: black;
+  opacity: .8;
+  height: 16rem;
+  padding: 1rem;
+}
+
+#hero-header img {
+  height: 15rem;
+  width: auto;
+}
+
+#hero-collection {
+  margin: 2rem;
+}
+
+.card {
+  font-family: fantasy;
+  text-align: center;
+  border: grey solid 1px;
+  padding: 1rem;
+  width: 22rem;
+  height: 30rem;
+  display: inline-grid;
+  margin: 1rem 2rem;
+  box-shadow: 15px 20px #e04b52
+}
+
+
+.hero-avatar {
+  justify-self: center;
+  height: 12rem;
+  width: auto;
+  object-fit: cover;
+}
+
+button {
+  position: relative;
+  background-color: #4be0d6;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+  justify-self: center;
+}
+
+button:hover {
+  background-color: black;
+  border: whitesmoke solid 1px;
+  color: #4be0d6;
+}
+
+.container {
+  padding: 1rem;
+  width: stretch;
+  height: auto;
+  display: none;
+  background: grey;
+  opacity: .8;
+}
+
+.add-hero-form {
+  width: 80%
+}
+
+.submit {
+  position: relative;
+  background-color: #4be0d6;
+  border-radius: 5px;
+  height: 2rem;
+  width: max-content;
+  color: black;
+  font-size: 18px;
+  justify-self: center;
+  font-family: fantasy;
+  margin: 3px;
+}
+
+.submit:hover {
+  background-color: black;
+  border: whitesmoke solid 1px;
+  color: #4be0d6;
+}
+
+
+.input-text {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: fantasy;
+  color: black;
+  margin: 3px;
+}
