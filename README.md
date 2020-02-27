@@ -6,3 +6,4 @@ Once you have changed the `db.json` file, fire up the server by running the foll
 `json-server --watch db.json`
 
 Use your understanding of Fetch, Event Listeners and DOM manipulation to make a fully-functioning CRUD application. In order to do this, you may have to add more HTML elements on the `index.html` file, but make sure that you're not hard-coding any specific information. All the specifics of your application should be coming from your backend!
+# heros_of_the_world
