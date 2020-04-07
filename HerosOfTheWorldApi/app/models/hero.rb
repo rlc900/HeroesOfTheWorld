@@ -4,9 +4,9 @@ class Hero < ApplicationRecord
 
   def self.generateHealth(role)
     if(role === 'Tank')
-      '400'
+      'Health: 400'
     else
-      '200'
+      'Health: 200'
     end
   end
 
