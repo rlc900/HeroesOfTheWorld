@@ -41,7 +41,37 @@ body {
   object-fit: cover;
 }
 
-button {
+.like-btn {
+  background-color: #4be0d6;
+  width: 60px !important;
+  height: 20px !important;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  position: absolute;
+  left: 12px ;
+  background-color: #4be0d6;
+  width: 60px !important;
+  height: 20px !important;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* button {
   position: relative;
   background-color: #4be0d6;
   border: none;
@@ -52,7 +82,7 @@ button {
   color: black;
   font-size: 18px;
   justify-self: center;
-}
+} */
 
 button:hover {
   background-color: black;
