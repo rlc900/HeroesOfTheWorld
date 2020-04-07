@@ -79,7 +79,7 @@ let modalFunc = document.createElement('a')
     })
   const deleteButton = document.createElement('button')
     deleteButton.className = 'delete-btn'
-    deleteButton.innerText = 'Delete Hero'
+    deleteButton.innerText = '𝐗'
     deleteButton.style.font = '15px luminari,fantasy'
     deleteButton.addEventListener('click', (event) => {
       deleteHero(hero, heroDiv)
