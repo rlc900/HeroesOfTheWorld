@@ -59,11 +59,13 @@ button:hover {
   border: whitesmoke solid 1px;
   color: #4be0d6;
 }
-
+select {
+  display: block !important;
+}
 .container {
   padding: 1rem;
-  width: stretch;
-  height: auto;
+  /* width: stretch; */
+  /* height: auto; */
   display: none;
   background: grey;
   opacity: .8;

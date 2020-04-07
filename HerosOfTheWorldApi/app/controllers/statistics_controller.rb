@@ -10,12 +10,6 @@ class StatisticsController < ApplicationController
     render json: @statistic
   end
 
-  def update
-    @statistic = Statistic.find(params[:id])
-    @statistic.update(edit_statistic_params)
-    render json: @statistic
-  end
-
   def create
     # byebug
     @statistic = Statistic.create(create_statistic_params)
@@ -34,12 +28,8 @@ class StatisticsController < ApplicationController
 
   private
 
-  def edit_statistic_params
-    params.permit(:likes)
-  end
-
   def create_statistic_params
-    params.permit(:name, :quote, :img_url, :likes)
+    params.permit(:role, :affiliation, :health)
   end
 
 end

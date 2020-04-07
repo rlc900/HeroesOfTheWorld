@@ -22,14 +22,22 @@ let addHero = false
     heroForm.style.display = 'none'
   }
 })
-
+const affiliationSelectTag = document.querySelector('#affiliation')
 
 // GET FETCH
   fetch(heroUrl)
   .then(r => r.json())
-  .then(heroArr => heroArr.forEach(hero => {
+  .then(heroObj => {
+
+    heroObj.heros.forEach(hero => {
+      console.log(hero)
     generateHeroCard(hero)
-  }))
+    })
+    heroObj.statistic.forEach(stat => {
+      affiliationSelectTag.innerHTML += `<option name="affiliation" value="${stat.affiliation}">${stat.affiliation}</option>`
+    })
+  }
+)
 
 
 function generateHeroCard(hero) {
@@ -112,7 +120,10 @@ function generateStatistics(hero) {
     const heroName = e.target.name.value
     const heroImage = e.target.image.value
     const heroQuote = e.target.quote.value
+    const heroAffiliation = e.target.affiliation.value
+    const heroRole = e.target.role.value
 
+    // debugger
     //  CREATE FETCH
     fetch(heroUrl, {
       method: 'POST',
@@ -124,12 +135,15 @@ function generateStatistics(hero) {
         body: JSON.stringify({
           "name": heroName,
           "img_url": heroImage,
-          "quote": heroQuote
+          "quote": heroQuote,
+          "role": heroRole,
+          "affiliation": heroAffiliation
         })
     })
     .then(r => r.json())
     .then((newHeroObj) => {
       generateHeroCard(newHeroObj)
+      generateStatistics(newHeroObj)
     })
   })
 

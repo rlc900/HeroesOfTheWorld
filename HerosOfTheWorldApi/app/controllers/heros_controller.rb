@@ -1,7 +1,12 @@
 class HerosController < ApplicationController
   def index
     @heros = Hero.order(:id)
-    render json: @heros
+    @statistics = Statistic.all
+    @her = @heros.map {|h| ActiveModelSerializers::Adapter::Json.new(HeroSerializer.new(h)).serializable_hash}
+    @final = @her.map {|o| o[:hero] }
+
+    #serialized_hero = ActiveModelSerializers::Adapter::Json.new(HeroSerializer.new(@hero)).serializable_hash
+    render json: {heros: @final, statistic: @statistics}
   end
 
   def show
@@ -16,10 +21,12 @@ class HerosController < ApplicationController
   end
 
   def create
-    # byebug
+    # byebuga
+
     @hero = Hero.create(create_hero_params)
+    @stat = Statistic.create(health: Hero.generateHealth(params[:role]), affiliation: params[:affiliation], role: params[:role], hero_id: @hero.id)
     if @hero.valid?
-      render json: @hero
+      render json: @stat.hero
     else
       render json: @hero.errors.full_messages
     end
