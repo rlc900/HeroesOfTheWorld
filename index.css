@@ -8,7 +8,7 @@ body {
 }
 
 #hero-header {
-  color: white
+  color: white;
   display: flex;
   justify-content: center;
   background: black;
@@ -17,17 +17,14 @@ body {
   padding: 1rem;
 }
 
-/* #hero-header img {
-  height: 15rem;
-  width: auto;
-} */
+
 
 #hero-collection {
   margin: 2rem;
 }
 
 .card {
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
   text-align: center;
   border: grey solid 1px;
   padding: 1rem;
@@ -44,6 +41,10 @@ body {
   height: 12rem;
   width: auto;
   object-fit: cover;
+}
+
+.hero-quote {
+  font-size: medium;
 }
 
 .like-btn {
@@ -88,11 +89,11 @@ select {
 }
 
 #role {
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
 }
 
 #affiliation {
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
 }
 
 .active {
@@ -100,7 +101,7 @@ select {
   height: 2rem;
   width: 60%;
   font-size: 18px;
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
   color: white;
   margin: 3px;
 }
@@ -118,6 +119,14 @@ select {
   width: 80%
 }
 
+#add-hero {
+  font-family: 'Bomber Escort' !important;
+}
+
+#new-hero-btn {
+  font-family: 'Bomber Escort' !important;
+}
+
 .submit {
   position: relative;
   background-color: #4be0d6;
@@ -127,7 +136,7 @@ select {
   color: black;
   font-size: 18px;
   justify-self: center;
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
   margin: 3px;
 }
 
@@ -143,7 +152,7 @@ select {
   height: 2rem;
   width: 60%;
   font-size: 18px;
-  font-family: fantasy;
+  font-family: 'Bomber Escort';
   color: white;
   margin: 3px;
 }

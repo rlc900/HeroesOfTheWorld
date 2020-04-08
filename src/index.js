@@ -71,6 +71,7 @@ let modalFunc = document.createElement('a')
     p1.innerText = hero.likes
   const p2 = document.createElement('p')
     p2.innerText = hero.quote
+    p2.className = 'hero-quote'
   const likeButton = document.createElement('button')
     likeButton.className = 'like-btn'
     likeButton.innerText = '♥'
