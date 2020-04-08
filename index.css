@@ -1,9 +1,12 @@
 body {
   margin: 0;
-  font-family: fantasy;
+  /* font-family: fantasy; */
+  font-family: 'Bomber Escort'
 }
 
 #hero-header {
+  /* color: white; */
+  background-color: radial-gradient(circle, rgba(75,224,214,1) 10%, rgba(0,0,0,1) 50%, rgba(75,224,214,1) 97%);
   display: flex;
   justify-content: center;
   background: black;
@@ -12,10 +15,10 @@ body {
   padding: 1rem;
 }
 
-#hero-header img {
+/* #hero-header img {
   height: 15rem;
   width: auto;
-}
+} */
 
 #hero-collection {
   margin: 2rem;
