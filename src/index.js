@@ -69,7 +69,8 @@ let modalFunc = document.createElement('a')
     })
 
   const p1 = document.createElement('p')
-    p1.innerText = hero.likes
+    p1.innerText = `${hero.likes} likes`
+    p1.className = 'likes'
   const p2 = document.createElement('p')
     p2.innerText = hero.quote
     p2.className = 'hero-quote'

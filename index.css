@@ -9,6 +9,7 @@ body {
 
 #hero-header {
   color: white;
+  background: linear-gradient(15deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%) !important;
   display: flex;
   justify-content: center;
   background: black;
@@ -43,6 +44,10 @@ body {
   object-fit: cover;
 }
 
+.likes {
+  color: #22c1c3;
+}
+
 .hero-quote {
   font-size: medium;
   margin-bottom: 20%;
@@ -55,7 +60,7 @@ body {
 
 .like-btn {
   border-radius: 20px;
-  background-color: #4be0d6;
+  background-color: #22c1c3;
   width: 60px !important;
   height: 20px !important;
   border: none;
@@ -73,7 +78,7 @@ body {
   border-radius: 20px;
   position: absolute;
   left: 12px ;
-  background-color: #4be0d6;
+  background-color: #22c1c3;
   width: 60px !important;
   height: 20px !important;
   border: none;
@@ -87,9 +92,9 @@ body {
 }
 
 button:hover {
-  background-color: black;
+  background-color: #ffc74d;
   border: whitesmoke solid 1px;
-  color: #4be0d6;
+  color: black;
 }
 select {
   display: block !important;
@@ -136,11 +141,11 @@ select {
 
 .submit {
   position: relative;
-  background-color: #4be0d6;
+  background-color: #22c1c3;
   border-radius: 5px;
   height: 2rem;
   width: max-content;
-  color: black;
+  color: #black;
   font-size: 18px;
   justify-self: center;
   font-family: 'Bomber Escort';
@@ -148,9 +153,9 @@ select {
 }
 
 .submit:hover {
-  background-color: black;
+  background-color: #ffc74d;
   border: whitesmoke solid 1px;
-  color: #4be0d6;
+  color: black;
 }
 
 
