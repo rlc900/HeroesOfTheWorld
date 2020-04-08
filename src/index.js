@@ -56,6 +56,7 @@ let modalFunc = document.createElement('a')
 
   const h2 = document.createElement('h2')
     h2.innerText = hero.name
+    h2.className = 'hero-name'
     h2.style.font = "20px luminari,fantasy";
 
   const image = document.createElement('img')

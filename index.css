@@ -47,6 +47,11 @@ body {
   font-size: medium;
 }
 
+.hero-name {
+  font-family: 'Bomber Escort' !important;
+  font-size: medium;
+}
+
 .like-btn {
   border-radius: 20px;
   background-color: #4be0d6;
