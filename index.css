@@ -1,12 +1,14 @@
 body {
   margin: 0;
-  /* font-family: fantasy; */
-  font-family: 'Bomber Escort'
+  font-family: 'Bomber Escort';
+}
+
+.header {
+  /* color: radial-gradient(circle, rgba(75,224,214,1) 10%, rgba(0,0,0,1) 50%, rgba(75,224,214,1) 97%); */
 }
 
 #hero-header {
-  /* color: white; */
-  background-color: radial-gradient(circle, rgba(75,224,214,1) 10%, rgba(0,0,0,1) 50%, rgba(75,224,214,1) 97%);
+  color: white
   display: flex;
   justify-content: center;
   background: black;
