@@ -90,6 +90,15 @@ select {
   font-family: fantasy;
 }
 
+.active {
+  border-radius: 5px;
+  height: 2rem;
+  width: 60%;
+  font-size: 18px;
+  font-family: fantasy;
+  color: white;
+  margin: 3px;
+}
 
 .container {
   padding: 1rem;
@@ -130,6 +139,6 @@ select {
   width: 60%;
   font-size: 18px;
   font-family: fantasy;
-  color: black;
+  color: white;
   margin: 3px;
 }
