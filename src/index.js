@@ -74,6 +74,10 @@ let modalFunc = document.createElement('a')
   const p2 = document.createElement('p')
     p2.innerText = hero.quote
     p2.className = 'hero-quote'
+
+    const likeDiv = document.createElement('div')
+      likeDiv.className = 'like-div'
+
   const likeButton = document.createElement('button')
     likeButton.className = 'like-btn'
     likeButton.innerText = '♥'
@@ -89,7 +93,8 @@ let modalFunc = document.createElement('a')
       })
 
     modalFunc.append(image)
-  heroDiv.append(h2, modalFunc, p1, p2, likeButton, deleteButton)
+    likeDiv.append(likeButton)
+  heroDiv.append(h2, modalFunc, p1, likeDiv, p2, deleteButton)
   heroCollection.append(heroDiv)
 }
 
@@ -101,13 +106,16 @@ function generateStatistics(hero) {
     const heroNameEle = document.querySelector('#hero_name')
     // console.log(heroNameEle)
       heroNameEle.innerText = hero.name
-
+      heroNameEle.className = 'name'
       const h1RoleStat = document.querySelector('#hero_role')
         h1RoleStat.innerText = stat.role
+        h1RoleStat.className = 'role'
       const h2HealthStat = document.querySelector('#hero_health')
         h2HealthStat.innerText = stat.health
+        h2HealthStat.className = 'health'
       const h3AffiliationStat = document.querySelector('#hero_affiliation')
         h3AffiliationStat.innerText = stat.affiliation
+        h3AffiliationStat.className = 'affiliation'
   })
 }
 
