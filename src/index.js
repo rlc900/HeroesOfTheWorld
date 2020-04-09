@@ -108,7 +108,7 @@ function generateStatistics(hero) {
       heroNameEle.innerText = hero.name
       heroNameEle.className = 'name'
       const h1RoleStat = document.querySelector('#hero_role')
-        h1RoleStat.innerText = stat.role
+        h1RoleStat.innerText = `Role: ${stat.role}`
         h1RoleStat.className = 'role'
       const h2HealthStat = document.querySelector('#hero_health')
         h2HealthStat.innerText = stat.health
@@ -147,6 +147,7 @@ function generateStatistics(hero) {
           "name": heroName,
           "img_url": heroImage,
           "quote": heroQuote,
+          "likes": 0,
           "role": heroRole,
           "affiliation": heroAffiliation
         })
@@ -183,7 +184,7 @@ fetch(`${heroUrl}/${hero.id}`, {
 // .then(console.log)
 .then((updatedHero) => {
   hero.likes = updatedHero.likes
-  pTag.innerText = hero.likes
+  pTag.innerText = `${hero.likes} likes`
   })
 }
 
