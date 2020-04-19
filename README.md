@@ -1,6 +1,6 @@
 <h1 align="center">Heroes of the World</h1>
 
-A `Javascript` application ! 🚀
+A `Javascript` application that allows people to create their own hero to help Overwatch end the Omni Crisis!
 
 ## Technologies
 This web app makes use of the following technologies:
