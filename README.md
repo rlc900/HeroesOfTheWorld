@@ -50,7 +50,7 @@ To launch this application, you'll have to follow these steps:
 The main page displays all category's of Overwatch's heroes.
 
 <p align="center">
-<img src="gif1.gif"
+<img src="gif 1.gif"
      alt="the main page displays all category's of Overwatch's heroes"
      style="max-width: 100%" />
 </p>
