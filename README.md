@@ -41,7 +41,7 @@ To launch this application, you'll have to follow these steps:
 
 **Frontend Installation**
 
-- Open up another terminal and 
-  - Run `npm install` to install all dependencies.
-  - Run `npm start` to start server.
-  - Once you're taken to the web app, ensure Frontend is running at http://localhost:3001.
+- Open up another terminal in `heroes_of_the_world` directory and run: 
+  - `npm install` to install all dependencies.
+  - `npm start` to start server.
+  - Once you're taken to the web app, ensure Frontend is running at http://localhost:3000.
