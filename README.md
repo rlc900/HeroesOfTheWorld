@@ -55,11 +55,11 @@ The main page displays all category's of Overwatch's heroes.
      style="max-width: 100%" />
 </p>
 
-The user is redirected to their profile page, and can take the quiz by clicking on 'Take Quiz' on the the navbar located on the left!
+When a heroes playercard is clicked, more stats about them are shown!
 
 <p align="center">
 <img src="gif2.gif"
-     alt="user clicks on take quiz tab to take a quiz"
+     alt="you can learn more about the heros by clicking on their playercards"
      style="max-width: 100%" />
 </p>
 
