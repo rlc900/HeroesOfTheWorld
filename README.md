@@ -63,19 +63,27 @@ When a heroes playercard is clicked, more stats about them are shown!
      style="max-width: 100%" />
 </p>
 
-After the quiz is finished, a character card with the characters name, picture & description appears with the character that is most like the user! They're also able to add they're result to their profile page. 
+To create a hero, simply click the 'Create New Hero' button and fill out the required fields.
 
 <p align="center">
 <img src="gif3.gif"
-     alt="a result card is rendered with a button that adds to the users profile page"
+     alt="click create a hero button to create a hero & fill out the required fields."
      style="max-width: 100%" />
 </p>
 
-Users are also able to update their username and delete their account!
+Once you filled out the form and click 'Create', your hero will be displayed at the bottom of the page!
 
 <p align="center">
 <img src="gif4.gif"
-     alt="users can update and delete their account"
+     alt="once you filled out the form and click 'Create', your hero will be displayed at the bottom of the page!"
+     style="max-width: 100%" />
+</p>
+
+The user could also like and delete their playercard.
+
+<p align="center">
+<img src="gif5.gif"
+     alt="the user could also like and delete their playercard.
      style="max-width: 100%" />
 </p>
 
