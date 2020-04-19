@@ -45,3 +45,37 @@ To launch this application, you'll have to follow these steps:
   - `npm install` to install all dependencies.
   - `npm start` to start server.
   - Once you're taken to the web app, ensure Frontend is running at http://localhost:3000.
+  
+ ## Features
+The main page displays all category's of Overwatch's heroes.
+
+<p align="center">
+<img src="gif1.gif"
+     alt="the main page displays all category's of Overwatch's heroes"
+     style="max-width: 100%" />
+</p>
+
+The user is redirected to their profile page, and can take the quiz by clicking on 'Take Quiz' on the the navbar located on the left!
+
+<p align="center">
+<img src="gif2.gif"
+     alt="user clicks on take quiz tab to take a quiz"
+     style="max-width: 100%" />
+</p>
+
+After the quiz is finished, a character card with the characters name, picture & description appears with the character that is most like the user! They're also able to add they're result to their profile page. 
+
+<p align="center">
+<img src="gif3.gif"
+     alt="a result card is rendered with a button that adds to the users profile page"
+     style="max-width: 100%" />
+</p>
+
+Users are also able to update their username and delete their account!
+
+<p align="center">
+<img src="gif4.gif"
+     alt="users can update and delete their account"
+     style="max-width: 100%" />
+</p>
+
